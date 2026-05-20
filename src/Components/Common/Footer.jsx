@@ -34,7 +34,7 @@ const Footer = () => {
             <div>
               <div className="text-white font-bold text-xl mb-5">Quick Links</div>
               <ul className="space-y-3">
-                {["Home", "About", "Portfolio", "Pricing", "Contact"].map((l) => (
+                {["Home", "About", "Service", "Products", "Contact"].map((l) => (
                   <li key={l}>
                     <a href={`#${l.toLowerCase()}`} className="text-slate-500 hover:text-slate-300 text-sm transition-colors duration-200">
                       {l}
@@ -47,7 +47,7 @@ const Footer = () => {
             <div>
               <div className="text-white font-bold text-xl mb-5">Services</div>
               <ul className="space-y-3">
-                {["Web Development", "UI/UX Design", "SEO Optimization", "Digital Marketing", "Branding"].map((s) => (
+                {["Web Development", "Digital Marketing","Graphic Design","Video Editing", "24 support"].map((s) => (
                   <li key={s}>
                     <a href="#services" className="text-slate-500 hover:text-slate-300 text-sm transition-colors duration-200">
                       {s}
@@ -62,7 +62,7 @@ const Footer = () => {
               <ul className="space-y-3 mb-5">
                 <li className="text-slate-500 text-sm">contact.webmarkio@gmail.com</li>
                 {/* <li className="text-slate-500 text-sm">contact@webmarkio.agency</li> */}
-                <li className="text-slate-500 text-sm">+8801346047100</li>
+                <li className="text-slate-500 text-sm">+880 1346 047-100</li>
               </ul>
               <div className="flex gap-2">
                
@@ -96,7 +96,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="border-t border-white/5 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="border-t border-white/5 pt-8 pb-8 flex flex-col sm:flex-row items-center justify-between gap-4">
             <div className="text-slate-600 text-sm">
               © 2026 WebMarkio Agency. All rights reserved.
             </div>
