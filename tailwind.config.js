@@ -7,6 +7,7 @@ module.exports = {
         poppins: ["var(--font-poppins)"],
         rajdhani: ["var(--font-rajdhani)"],
       },
+     
     },
   },
 };

@@ -25,7 +25,7 @@ const Header = () => {
     {
       name: "Our Services",
       icon: <IoIosArrowDown />,
-      link: "/services",
+      link: "/#",
       submenu: [
         { name: "Web Development", link: "/web_development" },
         { name: "Digital Marketing", link: "/digital_marketing" },
@@ -48,7 +48,7 @@ const Header = () => {
   ];
 
   return (
-    <div className="bg-gray-100 shadow sticky top-0 left-0 w-full z-50">
+    <div className="bg-[#0F172A]/80 backdrop-blur-md shadow-[0_0_1px] shadow-white/10 sticky top-0 left-0 w-full z-50">
       <Container>
         <div className="flex justify-between items-center">
           <div className="overflow-hidden h-25">
@@ -60,12 +60,12 @@ const Header = () => {
               {Navbar.map((item, index) => (
                 <li key={index} className="relative group py-7">
                   <Link
-                    href={item.link}
-                    className={`relative flex items-center gap-1 text-2xl font-bold font-rajdhani transition-all duration-300
+                  href={item.submenu ? "#" : item.link}
+                    className={`relative flex items-center gap-1 text-xl font-bold font-rajdhani transition-all duration-300
                     ${
                       pathname === item.link
-                        ? "text-blue-600"
-                        : "text-black/75 hover:text-blue-600"
+                        ? "text-[#F79C03]"
+                        : "text-white hover:text-[#F79C03]"
                     }
 
                     after:content-['']
@@ -73,7 +73,7 @@ const Header = () => {
                     after:left-0
                     after:-bottom-1
                     after:h-[2px]
-                    after:bg-blue-600
+                    after:bg-[#F79C03]
                     after:transition-all
                     after:duration-300
                     ${
@@ -88,7 +88,7 @@ const Header = () => {
                   </Link>
 
                   {item.submenu && (
-                    <ul className="absolute left-0 top-full w-56 bg-white shadow-lg rounded-md hidden group-hover:block">
+                    <ul className="absolute left-0 top-full w-56 bg-white/80 text-[#0F172A] duration-500 shadow-lg rounded-md hidden group-hover:block">
                       {item.submenu.map((sub, i) => (
                         <li key={i}>
                           <Link

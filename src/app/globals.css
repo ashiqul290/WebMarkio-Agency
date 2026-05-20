@@ -2,14 +2,17 @@
 
 
 @theme  {
+  
+
   --font-poppins: var(--font-poppins);
   --font-rajdhani: var(--font-rajdhani);
+  
 
 }
 
 
 body {
-  
-  
+  background-color: #0F172A;
+  color: white;
   font-family: var(--font-poppins), sans-serif;
 }
