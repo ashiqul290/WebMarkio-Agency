@@ -57,7 +57,7 @@ const Service = () => {
     <>
 
      {/* ── Services ── */}
-      <section id="services" className="py-28 relative">
+      <section id="services" className="py-18 relative">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[400px] bg-blue-900/8 rounded-full blur-[80px]" />
         </div>
