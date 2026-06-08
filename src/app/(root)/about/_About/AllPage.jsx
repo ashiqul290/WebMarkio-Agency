@@ -10,7 +10,7 @@ const AllPage = () => {
         <>
             <main className="">
                 {/* Hero Section */}
-  
+
 
                 <section className="relative py-18 overflow-hidden ">
                     <div className="absolute top-0 left-0 w-full h-full -z-10">
@@ -25,75 +25,75 @@ const AllPage = () => {
                     {/* Background Glow */}
                     <div className="pointer-events-none absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-blue-500/20 blur-[150px] rounded-full" />
                     <Container>
-                    <div className=" grid lg:grid-cols-2 gap-10 items-center relative z-10">
+                        <div className=" grid lg:grid-cols-2 gap-10 items-center relative z-10">
 
-                        {/* Left Content */}
-                        <div>
+                            {/* Left Content */}
+                            <div>
 
-                            <span className="inline-flex items-center px-4 py-2 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-400 text-sm font-medium">
-                                About WebMarkio
-                            </span>
-
-                            <h1 className="mt-6 text-5xl md:text-6xl font-bold leading-tight text-white">
-                                We Build Websites
-                                <span className="block text-blue-500">
-                                    That Grow Businesses
+                                <span className="inline-flex items-center px-4 py-2 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-400 text-sm font-medium">
+                                    About WebMarkio
                                 </span>
-                            </h1>
 
-                            <p className="mt-6 text-lg text-gray-400 max-w-xl">
-                                WebMarkio helps businesses establish a powerful online presence through
-                                modern web development, UI/UX design, SEO, and digital marketing
-                                solutions designed to generate real results.
-                            </p>
+                                <h1 className="mt-6 text-5xl md:text-6xl font-bold leading-tight text-white">
+                                    We Build Websites
+                                    <span className="block text-blue-500">
+                                        That Grow Businesses
+                                    </span>
+                                </h1>
 
-                            <div className="flex flex-wrap gap-4 mt-10">
-                                <button className="px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-700 transition text-white font-medium">
-                                    Start Your Project
-                                </button>
+                                <p className="mt-6 text-lg text-gray-400 max-w-xl">
+                                    WebMarkio helps businesses establish a powerful online presence through
+                                    modern web development, UI/UX design, SEO, and digital marketing
+                                    solutions designed to generate real results.
+                                </p>
 
-                                <button className="px-8 py-4 rounded-xl border border-gray-700 hover:border-blue-500 transition text-white">
-                                    View Portfolio
-                                </button>
+                                <div className="flex flex-wrap gap-4 mt-10">
+                                    <button className="px-8 py-4 rounded-xl bg-blue-600 hover:bg-blue-700 transition text-white font-medium">
+                                        Start Your Project
+                                    </button>
+
+                                    <button className="px-8 py-4 rounded-xl border border-gray-700 hover:border-blue-500 transition text-white">
+                                        View Portfolio
+                                    </button>
+                                </div>
+
+                                {/* Stats */}
+                                <div className="grid grid-cols-3 gap-8 mt-14">
+                                    <div>
+                                        <h3 className="text-3xl font-bold text-white">100+</h3>
+                                        <p className="text-gray-400">Projects</p>
+                                    </div>
+
+                                    <div>
+                                        <h3 className="text-3xl font-bold text-white">50+</h3>
+                                        <p className="text-gray-400">Clients</p>
+                                    </div>
+
+                                    <div>
+                                        <h3 className="text-3xl font-bold text-white">5★</h3>
+                                        <p className="text-gray-400">Rating</p>
+                                    </div>
+                                </div>
                             </div>
 
-                            {/* Stats */}
-                            <div className="grid grid-cols-3 gap-8 mt-14">
-                                <div>
-                                    <h3 className="text-3xl font-bold text-white">100+</h3>
-                                    <p className="text-gray-400">Projects</p>
+                            {/* Right Image */}
+                            <div className="relative">
+                                <div className="relative w-full h-[500px]">
+                                    <Image
+                                        src={imghrobody}
+                                        alt="WebMarkio Agency"
+                                        fill
+                                        className="rounded-3xl border border-gray-800 shadow-2xl object-cover"
+                                    />
                                 </div>
 
-                                <div>
-                                    <h3 className="text-3xl font-bold text-white">50+</h3>
-                                    <p className="text-gray-400">Clients</p>
-                                </div>
-
-                                <div>
-                                    <h3 className="text-3xl font-bold text-white">5★</h3>
-                                    <p className="text-gray-400">Rating</p>
+                                <div className="absolute -bottom-6 -left-6 bg-gray-900 border border-gray-800 p-5 rounded-2xl">
+                                    <h4 className="text-white font-semibold">Revenue Growth</h4>
+                                    <p className="text-3xl font-bold text-blue-500 mt-2">+24%</p>
                                 </div>
                             </div>
+
                         </div>
-
-                        {/* Right Image */}
-                        <div className="relative">
-                            <div className="relative w-full h-[500px]">
-                                <Image
-                                    src={imghrobody}
-                                    alt="WebMarkio Agency"
-                                    fill
-                                    className="rounded-3xl border border-gray-800 shadow-2xl object-cover"
-                                />
-                            </div>
-
-                            <div className="absolute -bottom-6 -left-6 bg-gray-900 border border-gray-800 p-5 rounded-2xl">
-                                <h4 className="text-white font-semibold">Revenue Growth</h4>
-                                <p className="text-3xl font-bold text-blue-500 mt-2">+24%</p>
-                            </div>
-                        </div>
-
-                    </div>
 
                     </Container>
 
@@ -101,43 +101,62 @@ const AllPage = () => {
 
                 {/* Our Story */}
                 <section className="py-20 px-6">
-                    <div className="max-w-5xl mx-auto">
-                        <h2 className="text-4xl font-bold mb-6">
-                            Our Story
-                        </h2>
+                    <Container>
+                        <div className="">
+                            <h2 className="text-4xl font-bold mb-6">
+                                Our Story
+                            </h2>
 
-                        <p className="text-gray-400 leading-8">
-                            WebMarkio was founded with a simple goal: helping businesses create
-                            professional and high-performing digital experiences. We believe
-                            every business deserves a website that not only looks great but
-                            also generates real results. From startups to growing brands, we
-                            provide solutions that help businesses stand out and succeed online.
-                        </p>
-                    </div>
-                </section>
-
-                {/* Mission & Vision */}
-                <section className="py-20 px-6 bg-gray-800/90">
-                    <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
-                        <div className="bg-gray-900 border border-gray-800 p-8 rounded-3xl">
-                            <h3 className="text-3xl text-blue-500 font-bold mb-4">Our Mission</h3>
                             <p className="text-gray-400 leading-8">
-                                To empower businesses with innovative web solutions that increase
-                                visibility, improve customer engagement, and drive sustainable
-                                growth.
+                                WebMarkio started with a simple goal — to help small and medium businesses grow online. <br />
+
+                                We believe it’s not just about building beautiful websites, but creating digital experiences that deliver real results. <br />
+
+                                Today, we help businesses build a stronger online presence through web development, UI/UX design, SEO, and digital marketing.
                             </p>
+
+                            <button className="inline-flex mt-5 items-center px-4 py-2 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-400 text-sm font-medium">We don’t just build websites — we build growth.</button>
                         </div>
 
-                        <div className="bg-gray-900 border border-gray-800 p-8 rounded-3xl">
-                            <h3 className="text-3xl text-blue-500 font-bold mb-4">Our Vision</h3>
-                            <p className="text-gray-400 leading-8">
-                                To become a globally trusted digital partner known for creativity,
-                                innovation, and delivering measurable results for businesses of
-                                all sizes.
-                            </p>
-                        </div>
-                    </div>
+                    </Container>
                 </section>
+
+               {/* Mission & Vision */}
+<section className="py-24 px-6 bg-gradient-to-b from-gray-900 to-gray-950">
+  <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10">
+
+    {/* Mission */}
+    <div className="relative bg-gray-900/60 backdrop-blur border border-gray-800 p-10 rounded-3xl hover:border-blue-500/40 transition">
+      <div className="absolute -top-4 -left-4 w-10 h-10 bg-blue-500/20 rounded-full blur-xl" />
+
+      <h3 className="text-3xl text-blue-500 font-bold mb-5">
+        Our Mission
+      </h3>
+
+      <p className="text-gray-400 leading-8">
+        To help businesses grow online by building high-performing websites,
+        intuitive user experiences, and data-driven digital solutions that
+        deliver real results.
+      </p>
+    </div>
+
+    {/* Vision */}
+    <div className="relative bg-gray-900/60 backdrop-blur border border-gray-800 p-10 rounded-3xl hover:border-blue-500/40 transition">
+      <div className="absolute -top-4 -left-4 w-10 h-10 bg-blue-500/20 rounded-full blur-xl" />
+
+      <h3 className="text-3xl text-blue-500 font-bold mb-5">
+        Our Vision
+      </h3>
+
+      <p className="text-gray-400 leading-8">
+        To become a globally recognized digital agency known for innovation,
+        creativity, and delivering measurable business growth for clients
+        across the world.
+      </p>
+    </div>
+
+  </div>
+</section>
 
                 {/* Team Section */}
 
@@ -266,13 +285,13 @@ const AllPage = () => {
                             Let's create a website and digital strategy that helps your
                             business attract more customers and grow faster.
                         </p>
-            
-                    <div className="mt-8">
 
-                        <Link href="/contact" className=" px-8 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition">
-                            Get Free Consultation
-                        </Link>
-                    </div>
+                        <div className="mt-8">
+
+                            <Link href="/contact" className=" px-8 py-4 bg-blue-600 text-white rounded-xl hover:bg-blue-700 transition">
+                                Get Free Consultation
+                            </Link>
+                        </div>
                     </div>
                 </section>
             </main>
