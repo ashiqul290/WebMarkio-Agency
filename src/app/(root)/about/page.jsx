@@ -1,10 +1,10 @@
-import React from 'react'
+import AllPage from './_About/AllPage'
 
 const page = () => {
   return (
-    <div>
-      About page
-    </div>
+    <>
+     <AllPage />
+    </>
   )
 }
 
