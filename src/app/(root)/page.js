@@ -19,8 +19,8 @@ export default function Home() {
 
     <Banner />
     <CanectAgency />
-    <Service/>
     <About />
+    <Service/>
     <Porfolio/>
     <Proccess/>
     <ChooseUs/>
