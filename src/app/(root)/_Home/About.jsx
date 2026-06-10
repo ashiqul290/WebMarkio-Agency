@@ -1,5 +1,6 @@
 import Container from '@/Components/utils/Container'
 import { ArrowRight, Award } from 'lucide-react'
+import Link from 'next/link'
 import React from 'react'
 
 const About = () => {
@@ -69,10 +70,12 @@ const About = () => {
                 ))}
               </div>
 
-              <button className="flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 font-semibold text-white hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-200 hover:scale-105">
+      <div className=" inline-block">
+                <Link href={'/contact'} className="flex items-center gap-2 px-6 py-3 rounded-full bg-gradient-to-r from-blue-600 to-purple-600 font-semibold text-white hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-200 hover:scale-105">
                 Meet the Team
                 <ArrowRight className="w-4 h-4" />
-              </button>
+              </Link>
+      </div>
             </div>
           </div>
         </div>

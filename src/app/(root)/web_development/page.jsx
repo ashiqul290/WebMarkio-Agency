@@ -1,10 +1,18 @@
 import React from 'react'
+import HeroSecition from './_web/HeroSecition'
+import LogoSeciton from './_web/LogoSeciton'
+import Features from './_web/Features'
 
 const page = () => {
   return (
-    <div>
-      web_development page
-    </div>
+    <>
+      {/* <AllSection /> */}
+
+      <HeroSecition />
+    <LogoSeciton />
+<Features />
+
+    </>
   )
 }
 
