@@ -21,7 +21,7 @@ const HeroSecition = () => {
             </h1>
 
             <p className="mt-6 text-gray-400 max-w-xl">
-             We build fast, secure, and scalable websites tailored to your business goals. From corporate websites to custom web applications, we deliver solutions that drive growth and enhance user experience.
+             We build fast, secure, and scalable websites tailored to your business goals From corporate websites to custom web applications, we deliver solutions that drive growth and enhance user experience.
             </p>
 
             <button className="mt-8 px-6 py-3 rounded-xl bg-blue-600 hover:bg-blue-500">

@@ -9,8 +9,7 @@ const page = () => {
       {/* <AllSection /> */}
 
       <HeroSecition />
-    <LogoSeciton />
-<Features />
+      <Features />
 
     </>
   )
