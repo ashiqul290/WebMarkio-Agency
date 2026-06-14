@@ -3,6 +3,7 @@ import HeroSecition from './_web/HeroSecition'
 import LogoSeciton from './_web/LogoSeciton'
 import Features from './_web/Features'
 import Service from './_web/Service'
+import Project from './_web/Project'
 
 const page = () => {
   return (
@@ -11,7 +12,7 @@ const page = () => {
 
       <HeroSecition />
       <Service />
-
+    <Project />
 
       {/* <Features /> */}
 
